@@ -9,7 +9,6 @@ import axios from "axios";
 import { setUser, setUserId } from "@/redux/reducers/TaskReducer";
 
 
-
 export default function Index() {
   const dispatch = useDispatch();
   const user = useSelector((x: any) => x.TaskReducer.user);
